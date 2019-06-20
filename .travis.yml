@@ -23,6 +23,9 @@ matrix:
     - os: linux
       dist: xenial
       compiler: gcc
+    - os: linux-ppc64le
+      dist: xenial
+      compiler: gcc
 
 before_install:
   # When building the coverity_scan branch, allow only the first job to continue to avoid travis-ci/travis-ci#1975.
